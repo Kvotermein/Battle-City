@@ -1,0 +1,72 @@
+@font-face {
+  font-family: prstart;
+  src: url('fonts/prstart.ttf');
+}
+* {
+    background-color: grey;
+}
+#wndow{
+    position: relative;
+    height: 100%;
+}
+
+#menu {
+    width: 376px;
+    position: absolute;
+    margin: 0px;
+    font-family: prstart;
+    z-index: 1;
+    top:35vh;
+    left: calc(50vw - 188px);
+}
+#menuScene{
+    height: 136px;
+    width:376px;
+    width: 100%;
+    background-image: url(../images/battle_city.png)
+}
+.text {
+    cursor: pointer;
+    margin: 1vh 25%;
+    text-align: center;
+}
+
+#PP {
+    display: block;
+    position: absolute;
+    left: calc( 50vw - 300px );
+    top: calc( 50vh - 300px );
+}
+#records {
+    font-family: prstart;
+    text-align: center;
+    position: absolute;
+    display: block;
+    width: 500px;
+    height: 500px;
+    left: calc(50vw - 250px);
+    top:calc(50vh - 250px);
+    border: 2px solid black;
+}
+#recordsName {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+#recordsScore {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    border-left: 2px solid black;
+}
+
+#viewTankEmount {
+    display: block;
+    font-family: prstart;
+    text-align: center;
+    position: absolute;
+    left: 5vw;
+    top: 50vh;
+}

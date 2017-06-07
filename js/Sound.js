@@ -1,7 +1,7 @@
 ///////////////////////звук
-var ClickAudio=new Audio("Shoot.mp3");
-var ClickAudio1= new Audio("Hit.mp3");
-var ClickAudio2= new Audio("loop.mp3")
+var ClickAudio=new Audio("sound/Shoot.mp3");
+var ClickAudio1= new Audio("sound/Hit.mp3");
+var ClickAudio2= new Audio("sound/loop.mp3")
 function ShootSound() {
     ClickAudio.play(); // запускаем звук
     ClickAudio.pause(); // и сразу останавливаем

@@ -37,7 +37,7 @@
               document.getElementById('recordsScore').innerHTML=strScore;
         }
     }
-    RestoreInfo()
+    // RestoreInfo()
     function StoreInfo() 
     {
         UpdatePassword=Math.random();
